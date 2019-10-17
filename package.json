@@ -1,0 +1,35 @@
+{
+  "name": "node-apache-kafka",
+  "version": "1.0.0",
+  "description": "Sample project to demonstrate NodeJS and Apache Kafka.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . || true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeshkumaravel/node-apache-kafka.git"
+  },
+  "keywords": [
+    "node",
+    "kafka"
+  ],
+  "author": "RAJESH_K",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajeshkumaravel/node-apache-kafka/issues"
+  },
+  "homepage": "https://github.com/rajeshkumaravel/node-apache-kafka#readme",
+  "dependencies": {
+    "forever-monitor": "^1.7.1",
+    "kafka-node": "^4.1.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
